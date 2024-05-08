@@ -1,0 +1,54 @@
+﻿Todo list
+
+pricecharting dictionary things in generatepriceachartingurls (also rename it)
+pricecharting scraping - make sure api call selection is the one with "japanese" in the set name
+
+Promo sets sort out bugs - done mostly
+Filter out bundles
+
+When filling in data, change sql to join tables
+Promo sets need proper set number
+
+only one of each cardID can be opened at a time - done
+when adding cards, change the cardcounter thing to take the specific condition - done
+Conditions - dgv add graded conditions owned for collection - done
+
+Misc:
+Organise Utilities folder
+
+tbCards - change key to be SetID + SetNumber (done kindof)
+
+Functionality:
+add cardshops like yuyutei etc if possible, add cardshop buy prices
+Cardrush c, d etc
+Manasource, for names such as galar etc, put a space after it otherwise search won't work - mostly done, do more names
+Tag Team trainers' names will mess up search - they need to be added to one of the dictionaries/csv - for this, it's probably easiest to just map all the names of trainers etc to their japanese counterparts
+PSA pricing etc
+Pricing for PriceCharting, PSACARD (API), tcgPlayer (english only), ebay (cba for ebay)
+
+CardForm - add some stuff (stock etc) - done mostly
+
+Change Collectionform to be a setlistform - maybe
+
+Don't allow multiple instances of same card opened OR change how cardcount is read - done
+Add translation ability for non pokemon
+sort and filter any dgvs
+
+SeachTermGenerator class - generate search terms (both japanese and english) - mostly done, english needs to be implemented and jp trainer names etc
+
+Jp price tracker - using cardrush, manasource, dorasuta, use search terms generated - mostly done (dorasuta blocks)
+
+Links to stores (with functionality to use affiliate links) - done
+
+ebay price calculator - provide user ability to use own API key or use non API method
+ebay profit calculator - costs, ebay fees etc all calculated
+
+graphs of price histories for cards based on tcgplayer, pricecharting, maybe cardrush history but weird
+
+
+For much later:
+
+UI improvements
+Price projection using stats or some AI method
+Remote database, connect properly and everything
+"social" aspects - view other users' collections if they're public
