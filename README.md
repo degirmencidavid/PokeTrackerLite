@@ -1,10 +1,12 @@
 <h1>PokeTrackerLite</h1>
 
-PokeTrackerLite is a simple early build of the PokeTracker that I developed for my own investment and collection management. (The "full" version will not be released publicly). There are some bugs, but it is functionally sound.
+PokeTrackerLite is a simple early build of the PokeTracker that I developed for my own investment and collection management. (The "full" version will not be released publicly). There are some minor bugs, but it is functionally sound.
+
+The purpose of this repository is to provide a learning tool for asynchronous programming, API integration and webscraping that can be used as a starting point to build from.
 
 The key features that this does not include are price management and tracking options (other than gathering prices upon opening up a card).
 
-Also please forgive the janky UI, Windows Forms are ancient.
+The UI is built with windows forms.
 
 <h2>Functionality</h2>
 
@@ -69,7 +71,7 @@ The set will now be viewable in the sets form (as shown before).
 You'll need to set up your own database, the SQL syntax is Microsoft SQL Server. You'll need to connect to your database, the connection string is set in PokeTrackerLite/PokemonCollection/Utilities
 /DataAccess.cs
 
-<h3>The structure of the database:</h3>
+<h3>Section X - The structure of the database:</h3>
 
 There are 4 tables that you can generate using the following:
 
