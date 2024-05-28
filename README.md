@@ -31,7 +31,7 @@ Double clicking a card in a list like this will open the card properties:
 ![image](https://github.com/degirmencidavid/PokeTrackerLite/assets/101801691/cda0cfb0-3c14-4b78-8215-ad1315fe0a52)
 
 Upon opening a Japanese card, prices will be obtained from 3 Japanese card storesCardRush, Furu1, and ManaSource. Blue prices are in stock, and grey prices are low/empty stock. A somewhat unpleasant to view graph of the price history of the card in various conditions is also presented with the current estimated price for these conditions shown on the left of the graph (in the same order as the legend on the graph); this data is obtained from pricecharting.com.
-As you may notice, some labelling is incomplete.
+Feel free to implement a data visualisation tool to present this data more pleasantly.
 
 The "Cards" button allows the user to manually add in a card along with properties and an image:
 
@@ -56,10 +56,10 @@ The "My Collection" button allows a user to view a table of the cards in their c
 
 ![image](https://github.com/degirmencidavid/PokeTrackerLite/assets/101801691/c64d3663-90d4-4554-925f-9af752da5169)
 
-The "Types" and "Valuation" buttons have not been implemented.
+The "Types" and "Valuation" buttons are left unimplemented.
 
 <h3>Set Scraping</h3>
-Now for the huge "Set Scraper" button. This is a tool to download all the cards in a set, along with their metadata, from pokellector.com and jp.pokellector.com (depending on language).
+Now for the huge "Set Scraper" button. This is a tool to download all the cards in a set, along with their metadata, from pokellector.com and/or jp.pokellector.com (depending on language).
 It will download up to 10 cards simultaneously (this is the sweet spot before the site starts to throttle traffic).
 
 ![image](https://github.com/degirmencidavid/PokeTrackerLite/assets/101801691/088c72de-fd3f-4085-9a87-3c6a6a66d635)
@@ -71,9 +71,11 @@ The set will now be viewable in the sets form (as shown before).
 You'll need to set up your own database, the SQL syntax is Microsoft SQL Server. You'll need to connect to your database, the connection string is set in PokeTrackerLite/PokemonCollection/Utilities
 /DataAccess.cs
 
+If you are unfamiliar with how to set up your database, I encourage you to stop here and learn how to do it.
+
 <h3>Section X - The structure of the database:</h3>
 
-There are 4 tables that you can generate using the following:
+There are 4 tables that you can generate using the following SQL:
 
 Cards Table:
 ``` sql
