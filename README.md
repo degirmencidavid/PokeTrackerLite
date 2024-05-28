@@ -6,7 +6,7 @@ The purpose of this repository is to provide a learning tool for asynchronous pr
 
 The key features that this does not include are price management and tracking options (other than gathering prices upon opening up a card).
 
-The UI is built with windows forms.
+I have rebuilt the UI with Windows Forms, but I would recommend reimplementing a web based frontend if you have the capability to do so.
 
 <h2>Functionality</h2>
 
