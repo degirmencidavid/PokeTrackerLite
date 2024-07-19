@@ -8,6 +8,8 @@ The key features that this does not include are price management and tracking op
 
 I have rebuilt the UI with Windows Forms, but I would recommend reimplementing a web based frontend if you have the capability to do so.
 
+SQL queries have all been put into a single file.
+
 <h2>Functionality</h2>
 
 <h3>Login Screen</h3>
